@@ -18,6 +18,10 @@ public class CosonleApplication  extends SpringBootServletInitializer  {
     public static void main(String[] args) {
     	
         SpringApplication.run(CosonleApplication.class, args);
+        System.out.println(
+                "##############################\n" +
+                "#####spring boot 启动成功######\n" +
+                "##############################");
     }
 
 
